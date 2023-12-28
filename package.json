@@ -2,9 +2,12 @@
   "name": "task-gpt-mockup",
   "version": "1.0.0",
   "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install": "npm run install:backend && npm run install:frontend",
     "start:backend": "cd backend && node server.js",
     "start:frontend": "cd frontend && npm run dev",
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+    "start": "npm run install && concurrently \"npm run start:backend\" \"npm run start:frontend\""
   },
   "dependencies": {
     "concurrently": "^8.2.2"
