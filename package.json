@@ -1,5 +1,5 @@
 {
-  "name": "task-gpt-mockup",
+  "name": "triaging-board",
   "version": "1.0.0",
   "scripts": {
     "install:backend": "cd backend && npm install",

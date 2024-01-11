@@ -3,4 +3,4 @@ node_modules/*
 
 # all next files in frontend
 frontend/.next/*
-*/frontend/.env*
+frontend/.env*
